@@ -1,0 +1,351 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: auto;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    margin-left: 90px;
+    margin-top: -1200px;
+    position: absolute;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 24px;
+    line-height: 33px;
+    color: white;
+    font-weight: bold;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 700px;
+
+}
+.nav > a {
+    margin: 15px;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    text-decoration: none;
+}
+#SignUp-button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    background-color: white;
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+}
+#SignUp-button:hover {
+    background-color: #F6EF8F;
+}
+
+.intro {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.intro > h1 {
+    font-size: 50px;
+    line-height: 100px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.intro > p {
+    width: 600px;
+    margin-top: -20px;
+    font-size: 36px;
+    line-height: 74px;
+    color: white;
+}
+
+.description {
+    position: relative;
+    margin-top: 600px;
+    width: 1180px;
+    color: #333333;
+    text-align: center;
+}
+
+.description > h2 {
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.description > p {
+    font-size: 18px;
+    line-height: 37px;
+}
+
+.crypto-products > .points {
+    z-index: 1;
+    margin-top: 200px;
+}
+
+.crypto-products > h3 {
+    z-index: 2;
+    margin-top: -370px;
+    margin-bottom: 100px;
+    margin-left: 60px;
+    width: 530px;
+    font-size: 45px;
+    line-height: 68px;
+    color: #076572;
+}
+
+.crypto-products > a {
+    position: absolute;
+    display: block;
+    z-index: 2;
+    margin-left: 60px;
+    width: 147px;
+}
+
+.crypto-products .view-more:hover {
+    border-bottom: 3px solid #1991EB;
+}
+
+.img-hand {
+    display: block;
+    z-index: 1;
+    margin-left: 600px;
+    margin-top: -345px;
+    border-radius: 2.8501px;
+}
+
+.img-bitmap {
+    z-index: 2;
+    margin-left: 885px;
+    margin-top: -190px;
+}
+
+.crypto-chart > .points {
+    display: block;
+    z-index: 1;
+    margin-top: 170px;
+}
+
+.chart {
+    position: relative;
+    z-index: 2;
+    margin-left: 30px;
+    margin-top: -330px;
+    margin-right: 40px;
+}
+
+.crypto-representation {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    margin-left: 645px;
+    margin-top: -550px;
+    width: 550px;
+}
+
+.crypto-representation >  h4 {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    color: #076572;
+    margin-bottom: 15px;
+}
+
+.crypto-representation > p {
+    position: absolute;
+    margin-top: 340px;
+    width: 519px;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    color: #333333;
+}
+
+.crypto-representation > a {
+    position: absolute;
+    margin-top: 450px;
+}
+
+.crypto-representation .view-more:hover {
+    border-bottom: 3px solid #1991EB;
+}
+
+.crypto-wallet {
+    margin-top: 270px;
+    height: 660px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.crypto-wallet > h5 {
+    width: 460px;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 68px;
+    color: #076572;
+}
+.crypto-wallet > p {
+    font-size: 18px;
+    line-height: 29px;
+    color: #282D32;
+    margin-top: -50px;
+    margin-bottom: 70px;
+    z-index: 1;
+}
+
+.crypto-wallet .view-more:hover {
+    border-bottom: 3px solid #1991EB;
+}
+
+.crypto-wallet > .points {
+   display: block;
+   margin-left: -85px;
+    margin-top: 80px;
+}
+
+.crypto-wallet > .wallet {
+    position: relative;
+    margin-left: -200px;
+    margin-top: 35px ;
+}
+
+footer {
+    position: absolute;
+    background: #30292F;
+    margin-top: 1950px;
+    margin-left: 0;
+    width: 1440px;
+    height: 223px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+}
+
+footer h6 {
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    height: 30px;
+    display: block;
+    font-weight: lighter;
+    margin-left: 90px;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-left: 90px;
+    margin-top: -38px;
+}
+
+.subscription {
+    margin-top: 15px;
+    height: 100px;
+    margin-right: 180px;
+    display: flex;
+    width: 280px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#user-email {
+    z-index: 1;
+    margin-bottom: 20px;
+    margin-right: -5px;
+    width: 190px;
+    height: 48px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(62, 61, 61, 0.5);
+}
+
+#send-email {
+    width: 80px;
+    height: 55px;
+    background: #1768AC;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#send-email:hover{
+    border: 3px solid #1991EB;
+    box-shadow: 0 2px 3px #1991EB;
+}
+
+.useful-links {
+    border-top: 1px solid rgba(218, 218, 218, 0.43);
+    width: 1202px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-top: -10px;
+}
+
+.useful-links a:hover{
+    border-bottom: 3px solid #1991EB;
+}
+
+.contact-info a{
+    display: inline;
+    margin-right: 40px;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    width: 200px;
+}
+
+.additional-info a{
+    display: inline;
+    margin-left: 40px;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    width: 120px;
+}
